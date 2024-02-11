@@ -1,84 +1,62 @@
 body {
-  background: black;
-  font-family: "Merriweather", serif;
-  font-family: "Roboto", sans-serif;
+    background: black;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
-  background-color: white;
-  min-height: 100vh;
+    background-color: white;
+    min-height: 100vh;
 }
 
+
 header {
-  border-bottom: thin solid;
+    border-bottom: thin solid;
 }
 
 h1 {
-  font-size: 30px;
-  letter-spacing: 3px;
+    font-size: 30px;
+    letter-spacing: 3px;
 }
 
 h2 {
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 1.2px;
-  color: rgb(102, 102, 102);
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    color: rgb(102, 102, 102);
 }
 
 h3 {
-  font-size: 2rem;
-  line-height: 1.3rem;
+    font-size: 2rem;
 }
 
 .content {
-  line-height: 24px;
-  letter-spacing: 1.6px;
-}
-
-.img-container {
-  aspect-ratio: 4/3;
-  width: 100%;
-
-  @media (min-width: 768px) {
-    max-width: 400px;
-  }
-
-  image {
-    width: 100%;
-
-    @media (min-width: 992px) {
-      width: auto;
-      height: 100%;
-    }
-  }
+    line-height: 24px;
+    letter-spacing: 1.6px;
 }
 
 .calendar-container {
-  @media (max-width: 768px) {
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
+    @media(max-width: 768px) {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
 }
 
 iframe {
-  width: 600px;
-  height: 400px;
+    width: 600px;
+    height: 400px;
 
-  @media (min-width: 992px) {
-    width: 800px;
-    height: 500px;
-  }
+    @media(min-width: 992px){
+        aspect-ratio: 2/1;
+        width: 100%;
+    }
 }
 
-a {
-  color: #990066;
-  font-size: 23px;
-  cursor: pointer;
-}
 
 footer {
-  border-top: thin solid;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 1.4px;
+    border-top: thin solid;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing:  1.4px;
 }
+
